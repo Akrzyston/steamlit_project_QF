@@ -76,7 +76,7 @@ current_price = st.number_input("Current Asset Price", value=100)
 strike = st.number_input("Strike Price", value=100)
 time_to_maturity = st.number_input("Time to Maturity (Years)", value=1)
 volatility = st.number_input("Volatility", value=.15)
-interest_rate = st.number_input("Interest Rate", value=.05)
+interest_rate = st.number_input("Risk-free Interest Rate", value=.05)
 
 st.markdown("---")
 st.title("Heatmap Parameters")
